@@ -7,10 +7,22 @@
 // let sumOfPositiveNumbers = allPositiveNumbers.reduce((acc,curre)=>acc+curre,0)
 // console.log(sumOfPositiveNumbers)
 
-function sumOfPOsitive(arr){
-    var numbers = [...arr]
-    var positives= numbers.filter(num=>num>0)
-    return positives.reduce((acc,curre)=>acc+curre,0)
+// function sumOfPOsitive(arr){
+//     var numbers = [...arr]
+//     var positives= numbers.filter(num=>num>0)
+//     return positives.reduce((acc,curre)=>acc+curre,0)
     
-}
-console.log(sumOfPOsitive([-1,2,3,4,-5,7,-3,8,9]))
+// }
+// console.log(sumOfPOsitive([-1,2,3,4,-5,7,-3,8,9]))
+
+
+function countSheeps(arrayOfSheep) {
+    return arrayOfSheep.filter(sheep =>sheep==true).length
+  }
+
+ console.log(countSheeps([true,  true,  true,  false,
+    true,  true,  true,  true ,
+    true,  false, true,  false,
+    true,  false, false, true ,
+    true,  true,  true,  true ,
+    false, false, true,  true])) 
