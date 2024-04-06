@@ -6,6 +6,6 @@ function randomAge(age){
     //Approach Two
     function randomAge(str){
         var result= str.split(" ")
-        return Number(str[0])
+        return Number(result[0])
     }
     console.log(randomAge("5 Years old"))
