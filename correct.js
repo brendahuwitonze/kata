@@ -1,8 +1,8 @@
-function correct(str){
-    return str.replace(0,"o")
-               .replace(1,"i")
-               .replace(5,"S")
-        
+function correct(string){
+    return string.replace(/0/g,'O')
+               .replace(/1/g,"I")
+               .replace(/5/g,"S")
+             
    
 }
-console.log(correct("par1s"))
+
