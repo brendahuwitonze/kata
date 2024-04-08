@@ -24,14 +24,43 @@
 // If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 
 
-//Approach one
-function randomAge(age){
-return Number(age[0])
-}
+// function randomAge(age){
+//     return Number(age[0])
+//     }
+    
+    //Approach Two
+    // function randomAge(str){
+    //     var result= str.split(" ")
+    //     return Number(result[0])
+    // }
+    // console.log(randomAge("5 Years old"))
 
-//Approach Two
-function randomAge(str){
-    var result= str.split(" ")
-    return Number(str[0])
-}
-console.log(randomAge("5 Years old"))
+    // var x= 1;
+
+    // while (x<1000){
+
+        // console.log(x)
+        
+        // x++;
+        
+        // }
+
+// function reverse(reverseMe){
+//     return reverseMe.reverse()
+// }
+
+
+// console.log(reverse("brendah"))
+
+// function  factorial(num){
+//     if(num===0||num===1){
+//         return 1;
+//     }
+//     else {
+//         return num*factorial(num-1)
+//     }
+
+// }
+// console.log(factorial(3))
+
+
