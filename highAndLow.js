@@ -3,7 +3,8 @@
 // highAndLow("1 9 3 4 -5"); // return "9 -5"
 
 function numbers(n){
-var array = n.split("").map(Number);
+var array = n.split(" ").map(ele=>Number(ele)); 
+console.log(array)
 let highest =array[0];
 let  lowest =array[0];
 for (let i=1;i<array.length;i++){

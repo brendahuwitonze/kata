@@ -14,6 +14,7 @@ function correct(s){
         else if(s[i]==="1")s[i]='I'
         else if(s[i]==="5")s[i]='S'  }
     return s.join("")
+
 }
 
 console.log(correct("PAR15"))
