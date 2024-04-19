@@ -171,33 +171,25 @@
 //   console.log(toCamelCase("the_stealth_warrior")) //"theStealthWarrior",
 
 
-function toCamelCase(str){
-// let newWord = ''
-//   newWord= str.replace(/_/g," ")
-//   return newWord
-let newWord= str.split("")
-let newa = [];
-for(let i=0;i<newWord.length;i++){
-  if(newWord[i]==='_'){
-   var word =newWord[i+1]
-   let capitalised = word.toUpperCase()
-   return newWord.join("").replace(/_/g,capitalised)
-  }
+// function sumOfMinimum(array){
+//   let minimum1 
+//   let minimum2 
+//   for (let i =0;i<=array.length;i++){
+//   var n = array[i]
+//   if
+//   return n
+//   }
 
-}
-}
-
-console.log(toCamelCase("the_stealth_warrior")) //"theStealthWarrior",
+//  }
+// console.log(sumOfMinimum([19, 5, 42, 2, 77]))
 
 
 
-
-
-
-
-
-
-
+function toBinary(array){
+    return parseInt(array.join(''), 2
+)
+ }
+console.log(toBinary([0, 0, 0, 1]))
 
 
 
