@@ -4,3 +4,9 @@ function sumMix(x){
     }
 
     console.log((sumMix([9, 3, '7', '3'])));
+
+
+    //refactor
+    function sumMix(x){
+        return x.map(a=>+a).reduce((acc,curre)=>acc+curre,0)
+        }
