@@ -5,9 +5,12 @@
   "main": "sumofpositive.js",
   "scripts": {
     "start": "node Arraystatistics.js",
-    "dev":"nodemon Arraystatistics.js"
+    "dev": "nodemon Arraystatistics.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "deve": "^0.0.0"
+  }
 }
