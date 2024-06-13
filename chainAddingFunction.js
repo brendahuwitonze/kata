@@ -1,17 +1,11 @@
 
-// function sum(n) {
+function add(n) {
+    const sum = (a)=> add(a+n)  
+    sum.valueOf =()=>n
+      return
+    }
    
-//     function add(x=0) {
-//         let sum = n + x;
-//         console.log(sum);
-//     }
   
-//     return add;
-// }
-
-
-// sum(2)(); 
-
 
 
 
