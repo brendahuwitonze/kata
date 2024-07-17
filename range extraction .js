@@ -29,3 +29,14 @@ function solution(list){
   
       return result.join(',');
   }
+
+  //Initialization: We start by setting start and end to the first element of the list.
+// Iteration: As we iterate through the list:
+// If the current element continues the range (list[i] === end + 1), we update end.
+// If it doesn't, we check if the current range is at least 3 numbers (end - start >= 2):
+// If it is, we format it as start-end.
+// If it's not, we add individual numbers.
+// Reset start and end to the current element.
+// Final Check: After the loop, we need to handle the last range similarly to the checks within the loop.
+// Join: Finally, we join all the parts with commas to get the desired string format.
+// This solution ensures that ranges of at least 3 numbers are formatted correctly, and individual numbers or pairs are listed separately.
